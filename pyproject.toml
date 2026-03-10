@@ -1,0 +1,12 @@
+[project]
+name = "demoproject"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11.4"
+dependencies = [
+    "confluent-kafka>=2.13.2",
+    "django>=5.2.12",
+    "djangorestframework>=3.16.1",
+    "drf-spectacular>=0.29.0",
+    "ipython>=9.10.0",
+]
