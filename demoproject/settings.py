@@ -133,7 +133,9 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-# RedPanda Settings
+# Redpanda Settings
+# Map Kafka API setting in docker-compose.yml
 REDPANDA_HOST = "0.0.0.0"
 REDPANDA_PORT = "19092"
+# Just for demo purpose
 REDPANDA_POCKETFAN_NAMELIST_TOPIC = "PocketFanNameList" 
